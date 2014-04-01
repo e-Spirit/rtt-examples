@@ -1,0 +1,11 @@
+.DS_Store
+target/*
+.idea/*
+*iml
+*.ipr
+.classpath
+.settings
+.project
+bin
+target
+nbactions.xml

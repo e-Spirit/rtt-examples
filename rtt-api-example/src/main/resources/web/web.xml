@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  **********************************************************************
+  rtt-api-example
+  %%
+  Copyright (C) 2014 e-Spirit AG
+  %%
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+  
+       http://www.apache.org/licenses/LICENSE-2.0
+  
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  **********************************************************************
+  -->
+
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee        http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+    <display-name>RTT API Demo Application</display-name>
+    
+	
+	<!--
+		ATTENTION:	The ExampleFilters must run after the UxpServletFilter and the RequestParameterFilter. 
+					To make sure that everything is working correctly, this part must be copied to the end 
+					of the RTT web.xml.
+	
+    <filter>
+        <filter-name>ExampleIpFilter</filter-name>
+        <filter-class>com.espirit.moddev.rtt.examples.filters.ExampleIpFilter</filter-class>
+    </filter>
+    <filter>
+        <filter-name>ExampleLocationFilter</filter-name>
+        <filter-class>com.espirit.moddev.rtt.examples.filters.ExampleLocationFilter</filter-class>
+    </filter>
+    <filter>
+        <filter-name>ExampleWeatherFilter</filter-name>
+        <filter-class>com.espirit.moddev.rtt.examples.filters.ExampleWeatherFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>ExampleIpFilter</filter-name>
+        <url-pattern>/preview/*</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>ExampleLocationFilter</filter-name>
+        <url-pattern>/preview/*</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>ExampleWeatherFilter</filter-name>
+        <url-pattern>/preview/*</url-pattern>
+    </filter-mapping>
+	
+	-->
+</web-app>
