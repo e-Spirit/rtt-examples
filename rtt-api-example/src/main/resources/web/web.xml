@@ -24,7 +24,7 @@
     
 	
 	<!--
-		ATTENTION:	The ExampleFilters must run after the UxpServletFilter and the RequestParameterFilter. 
+		ATTENTION:	The ExampleFilters must run after the UxpServletFilter. 
 					To make sure that everything is working correctly, this part must be copied to the end 
 					of the RTT web.xml.
 	
